@@ -183,7 +183,7 @@ section {
 }
 
 .portfolio-item .iconbox {
-  /* background-color: var(--brand); */
+  background-color: var(--brand);
   border-radius: 50%;
   position: absolute;
   top: 60%;
@@ -211,7 +211,6 @@ section {
 
 .review img {
   width: 65px;
-  border-radius: 50%;
   border: 2px solid var(--brand)
 }
 
