@@ -1,4 +1,4 @@
 # portfolio-bootstrap
 
 
-Live view: https://elvin-mammadli.github.io/portfolio-bootstrap/
+Live view: https://elvin.netlify.app/
