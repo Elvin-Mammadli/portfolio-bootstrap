@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Elvin Mammadli | Frontend Developer</title>
 </head>
@@ -17,17 +18,17 @@
 
   <!-- Navbar start-->
 
-  <nav class="navbar fixed-top py-3 navbar-expand-lg navbar-dark">
+  <nav class="navbar fixed-top py-3 navbar-expand-lg navbar-dark" data-aos="fade-down">
     <div class="container">
       <a href="#" class="navbar-brand">
         <h2>E.M</h2>
       </a>
-      <button class="navbar-toggler animate__animated animate__fadeInDown animate__delay-0.5s" type="button"
+      <button class="navbar-toggler" type="button"
         data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
         MENU
       </button>
-      <div class="collapse navbar-collapse animate__animated animate__fadeInDown animate__delay-0.5s" id="navmenu">
+      <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a href="#home" class="nav-link">Home</a>
@@ -57,18 +58,17 @@
   <section id="home">
     <div class="container">
       <div class="row gy-5 align-items-center">
-        <div class="col-lg-6 order-lg-first order-last animate__animated animate__fadeIn animate__delay-0.5s">
+        <div class="col-lg-6 order-lg-first order-last" data-aos="fade-right">
           <h4 class="text-brand font-">Hello,</h4>
           <h1 class="display-4">I'm Elvin Mammadli</h1>
           <div class="person-is">
             <span>Front-end Developer</span>
             <p class="mt-4">
-
             </p>
           </div>
           <a href="#portfolio" class="btn btn-brand">Explore My Work</a>
         </div>
-        <div class="col-lg-4 col-md-8 animate__animated animate__fadeIn animate__delay-0.5s">
+        <div class="col-lg-4 col-md-8" data-aos="fade-left">
           <div class="person-img">
             <div class="ellipse-top"></div>
             <div class="ellipse-bottom"></div>
@@ -86,10 +86,10 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-7 col-lg-5 d-none d-sm-block m-auto">
+        <div class="col-12 col-md-7 col-lg-5 d-none d-sm-block m-auto" data-aos="fade-right">
           <img class="img-fluid img-thumbnail" src="img/Grainmediapro_1437.jpg" alt="">
         </div>
-        <div class="col-12 col-md-5 col-lg-7 d-flex align-items-center">
+        <div class="col-12 col-md-5 col-lg-7 d-flex align-items-center"  data-aos="fade-left">
           <div class="heading-section col-md-12 ms-lg-5">
             <h1 class="big display-2">About</h1>
             <h2 class="mb-4 fs-1">About Me</h2>
@@ -135,7 +135,7 @@
   <section class="ftco-section ftco-no-pb" id="resume">
     <div class="container">
       <div class="row justify-content-center pb-5">
-        <div class="col-md-10 heading-section text-center ftco-animate">
+        <div class="col-md-10 heading-section text-center ftco-animate" data-aos="fade-down">
           <h1 class="big-2 display-2">Resume</h1>
           <h2 class="mb-4 fs-1 fw-bolder">Resume</h2>
           <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
@@ -146,13 +146,13 @@
 
         <div class="col-md-6">
           <h2 class="ps-4">Experience</h2>
-          <div class="resume-wrap ftco-animate">
+          <div class="resume-wrap ftco-animate" >
             <span class="date">2022-Current</span>
             <h2>React Developer</h2>
             <span class="position">Freelance</span>
             <p class="mt-4">Building React applications. Stacks: Javascript, React, Material UI, Formik, YUP</p>
           </div>
-          <div class="resume-wrap ftco-animate">
+          <div class="resume-wrap ftco-animate" data-aos="fade-right">
             <span class="date">2021-2021</span>
             <h2>Frontend Developer</h2>
             <span class="position">Freelance</span>
@@ -162,17 +162,17 @@
 
         <div class="col-md-6">
           <h2 class="ps-4">Education</h2>
-          <div class="resume-wrap ftco-animate">
+          <div class="resume-wrap ftco-animate" >
             <span class="date">2021-2021</span>
             <h2>Frontend Development Bootcamp</h2>
             <span class="position">ATL Academy</span>
           </div>
-          <div class="resume-wrap ftco-animate">
+          <div class="resume-wrap ftco-animate" data-aos="fade-left">
             <span class="date">2013-2015</span>
             <h2>Master Degree of Information Systems in Business</h2>
             <span class="position">Azerbaijan State Oil and Industry University</span>
           </div>
-          <div class="resume-wrap ftco-animate">
+          <div class="resume-wrap ftco-animate" data-aos="fade-left" data-aos-delay="300">
             <span class="date">2009-2013</span>
             <h2>Bachelour in Economics</h2>
             <span class="position">Azerbaijan State University of Economics</span>
@@ -384,9 +384,9 @@
         </div>
       </div>
       <div class="row g-4">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-right">
           <div class="review">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center" data-aos="fade">
               <img class="rounded-circle" src="img/Nailm.JPG" alt="">
               <div class="ms-3">
                 <h5>Nail Mammadov</h5>
@@ -398,7 +398,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="review">
+          <div class="review" data-aos="fade-left" data-aos-delay="500">
             <div class="d-flex align-items-center">
               <img class="rounded-circle" src="img/elmanm.JPG" alt="">
               <div class="ms-3">
@@ -411,7 +411,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="review">
+          <div class="review" data-aos="fade-right" data-aos-delay="700">
             <div class="d-flex align-items-center">
               <img class="rounded-circle" src="img/Orxan.jpeg" alt="">
               <div class="ms-3">
@@ -479,8 +479,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear()
+    AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 
